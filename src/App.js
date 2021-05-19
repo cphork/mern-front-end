@@ -7,7 +7,7 @@ import Form from "./Form";
 
 function App() {
 
-const url = "http://localhost:4000"
+const url = "https://dogs-backend-329-cp.herokuapp.com"
 
 const [cars, setCars] = React.useState([])
 
