@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+img {
+  height: 230px;
+  width: 370px;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.image-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+ 
+}
+
+.logo-image {
+  border: none;
+  height: 50px;
+  width: 75px;
+  margin-top: 15px;
+}
+
+.logo-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header {
+  font-family: cursive;
+  text-shadow: 2px 2px 2px teal;
+  font-size: 25px;
+}
+
+.create {
+  background: darkseagreen;
+  border-radius: 10px;
+}
+
+.create-forms {
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  margin-top: 25px;  
+  margin-left: 80px;
+}
+
+body {
+  background: rgb(19, 19, 19);
+}
+
+p {
+  color: white;
+}
+
+.description {
+  font-size: 20px;
+  font-family:monospace;
+  color: darkseagreen;
+}
+
+.create-btn {
+  background: darkseagreen;
+  border-radius: 15px;
+}
