@@ -7,7 +7,7 @@ import Form from "./Form";
 
 function App() {
 
-const url = "https://dogs-backend-329-cp.herokuapp.com"
+const url = "https://mern-app-cp.herokuapp.com"
 
 const [cars, setCars] = React.useState([])
 
@@ -101,7 +101,8 @@ const deleteCar = (car) => {
 
         <Switch>
 
-        <Route exact 
+        <Route 
+        exact 
         path="/" 
         render={(rp) => (
           <Display {...rp}

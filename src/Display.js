@@ -37,7 +37,7 @@ const Display = (props) => {
     )
 
     const loading = () =>
-    <img src="https://res.cloudinary.com/dejg3dz16/image/upload/c_scale,w_317/v1621295527/loading-time-tips_lrphoz.jpg" alt="loading"/>
+    <img className ='loading-img' src="https://res.cloudinary.com/dejg3dz16/image/upload/c_scale,w_317/v1621295527/loading-time-tips_lrphoz.jpg" alt="loading"/>
     return cars.length > 0 ? loaded() : loading()
 
 };
